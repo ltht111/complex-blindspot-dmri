@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complex-blindspot-dmri"
+version = "0.1.0"
+description = "Self-supervised complex-valued diffusion MRI denoising with leakage-aware blind-spot masking."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "nibabel>=5.0",
+  "scikit-image>=0.20",
+  "tqdm>=4.64",
+  "torch>=2.0",
+  "complexPyTorch>=0.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Research data and generated artifacts
+data/
+datasets/
+checkpoints/
+outputs/
+results/
+logs/
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.mat
+*.pth
+*.pt
+*.ckpt
+
+# Local manifests contain machine-specific paths
+*.local.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*
+

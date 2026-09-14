@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this repository."
+title: "ComplexBlindSpot-dMRI"
+type: software
+authors:
+  - family-names: "Zheng"
+    given-names: "Athose"
+repository-code: "https://github.com/Athose712/complex-blindspot-dmri"
+version: 0.1.0
+date-released: 2026-09-13
+license: MIT
+
