@@ -1,0 +1,16 @@
+[
+  {
+    "group": "subject_001",
+    "slice_name": "slice_020.npz",
+    "dwi_paths": [
+      "../data/subject_001/npz/dir001_b1000/slice_020.npz",
+      "../data/subject_001/npz/dir002_b1000/slice_020.npz"
+    ],
+    "dwi_bvals": [1000.0, 1000.0],
+    "dwi_bvecs": [
+      [1.0, 0.0, 0.0],
+      [0.0, 1.0, 0.0]
+    ]
+  }
+]
+
